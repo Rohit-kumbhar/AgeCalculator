@@ -1,0 +1,152 @@
+
+body{
+  background: url(1.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+#result{
+	color: white;
+	margin-top: 120px;
+	font-size: 24px;
+	position: ;
+	text-align: center;
+	font-family: Courier;
+}
+
+#refresh{
+	margin-left: 1100px;
+
+
+	width: 100px;
+	height: 30px;
+	text-decoration: none;
+	background-color: ;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	background-color:#ededed;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	
+	cursor:pointer;
+	color:#777777;
+	font-family:Arial;
+	font-size:25x;
+	font-weight:bold;
+	text-shadow:0px 1px 0px #ffffff;
+}
+
+
+#refresh:hover {
+	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	background-color:#dfdfdf;
+	
+}
+#refresh:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+#theme{
+	margin-left: 10px;
+	margin-top: px;
+
+
+	width: 100px;
+	height: 30px;
+	text-decoration: none;
+	background-color: ;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	background-color:#ededed;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	
+	cursor:pointer;
+	color:#777777;
+	font-family:Arial;
+	font-size:25x;
+	font-weight:bold;
+	text-shadow:0px 1px 0px #ffffff;
+}
+
+
+#theme:hover {
+	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	background-color:#dfdfdf;
+	
+}
+#theme:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+.cal_body{
+	
+	margin-left: 450px;
+	margin-top: 20px;
+	font-size: 20px;
+	font-family: Courier;
+	color: grey;
+}
+.myinput{
+	position: relative;
+	margin-left: 45px;
+	width: 200px;
+}
+#month{
+	margin-left: 20px;
+	width: 206px
+}
+#year{
+	margin-left: 33px;
+}
+
+#cal1{
+	margin-top: 200px;
+}
+#cal4{
+
+	margin-left: 610px;	
+	width: 140px;
+	height: 50px;
+	text-decoration: none;
+	color:;
+	background-color: ;
+
+	border: ;
+	font-size: 16px;
+
+
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	background-color:#ededed;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#777777;
+	font-family:Arial;
+	font-size:25x;
+	font-weight:bold;
+	text-shadow:0px 1px 0px #ffffff;
+}
+#cal4:hover {
+	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	background-color:#dfdfdf;
+	
+}
+#cal4:active {
+	position:relative;
+	top:1px;
+}
+
+       
+
+
+

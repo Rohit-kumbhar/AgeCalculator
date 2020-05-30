@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<link rel="stylesheet" type="text/css" href="cal.css">
+    </head>
+    <body>
+    		<button id="refresh" onclick="refresh()">Refresh</button>
+    		<a href="callite.html"><button id="theme" onclick="">Theme</button></a>
+    		<div id="ca1">
+
+
+	    	<div class="cal_body" id="cal1">
+		    	<p>Enter Your Birth Year
+		        <input type="number" id="year" class="myinput"></p>
+	            <p id="myText1"></p>
+        	</div>
+        	<div class="cal_body" id=""cal2>
+            <p>Enter Your Birth Month
+	            <select id="month" onchange=""  class="myinput">
+	                <option></option>
+	                <option>January</option>
+	                <option>February</option>  
+	                <option>March</option>
+	                <option>April</option>
+	                <option>May</option>
+	                <option>June</option>
+	                <option>July</option>  
+	                <option>August</option>
+	                <option>September</option>
+	                <option>October</option>
+	                <option>November</option>
+	                <option>December</option>
+	            </select>
+            	<p id="myText2"></p></p>
+        	</div>
+        	<div class="cal_body" id="cal3">
+	            <p>Enter Your Birth Day
+		        <input type="number" id="day"  class="myinput"></p>
+	            <p id="myText3"></p></p>
+        	</div>
+
+        	</div>
+            <button class="" id="cal4" onclick="cal()">Your Age</button>
+            <p id="result"></p>
+	    
+
+    	<script src="cal.js"></script>
+    </body>
+</html>
